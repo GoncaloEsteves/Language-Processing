@@ -1,0 +1,33 @@
+// Lê dois números e escreve o maior
+	pushn 2
+start
+	pushs "Indtroduza um valor:"
+	writes
+	read
+	atoi
+	storeg 0
+
+	pushs "Indtroduza um valor:"
+	writes
+	read
+	atoi
+	storeg 1
+
+// Início do If
+	pushg 0
+	pushg 1
+	sup
+	jz else
+	pushg 0
+	writei
+	jump fimIf
+// Bloco de else
+:else
+	pushg 1
+	writei
+
+
+//Fim do if	
+fim:
+	pushs "That's all folks!"
+	writes

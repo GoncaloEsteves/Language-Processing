@@ -1,0 +1,32 @@
+a   - o caractér 'a'
+a|b - 'a' ou 'b'
+ab  - 'a' seguido de 'b'
+a+  - 1 ou mais vezes 'a'
+a*  - 0 ou mais vezes 'a'
+\+  - o caractér '+'
+^   - inicio de linha
+$   - fim de linha
+()  - para agrupar
+.   - qualquer caractér exceto o '\n'
+
+-ASCII
+A - 65
+a - 97
+0 - 48
+9 - 57
+
+
+-Filtros de texto:
+CSV
+XML
+JSON
+
+flex - gerador de analisadores léxicos
+     - gerador de conversores
+     - gerador de filtros de texto
+
+Exercicio das datas - (ficheiro data.l)
+
+-Para casa:
+Construir expressao regular que faz match de strings binarias com um número ímpar de 1s e um número par de 0s
+(Expressao para strings binarias normais - (0|1)+)

@@ -1,0 +1,13 @@
+Exp -> Exp2 Op Exp2
+	 | Termo
+
+Exp2 -> Ap Exp Fp
+      | Exp
+
+Termo -> Int
+
+Op -> '+' | '-' | '/' | '*'
+
+Ap -> '('
+
+Fp -> ')'

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<lista>
+	<item>
+		<objeto>
+			<id>A81312</id>
+			<nome>Ana Cristina Almeida</nome>
+			<notas>
+				<lista>
+					<item>
+						<objeto>
+							<uc>Processamento de Linguagens</uc>
+							<nota>16</nota>
+						<objeto>
+					</item>
+					<item>
+						<objeto>
+							<uc>Computacao Grafica</uc>
+							<nota>14</nota>
+						<objeto>
+					</item>
+				</lista>
+			</notas>
+		</objeto>
+	</item>
+	<item>
+		<objeto>
+			<id>A83123</id>
+			<nome>Rui Paulo Bastos</nome>
+			<notas>
+				<lista>
+					<item>
+						<objeto>
+							<uc>Processamento de Linguagens</uc>
+							<nota>12</nota>
+						<objeto>
+					</item>
+					<item>
+						<objeto>
+							<uc>Computacao Grafica</uc>
+							<nota>10</nota>
+						<objeto>
+					</item>
+				</lista>
+			</notas>
+		</objeto>
+	</item>
+</lista>

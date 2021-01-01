@@ -1,0 +1,21 @@
+//inicialmente
++ -
+
+4+6
+12
+45-23-12+1
+
+Exp -> Exp Op Termo
+	 | Termo
+
+Termo -> inteiro
+
+//o objetivo e fazer
++ - / * () inteiro
+
+4+6
+12
+23*6+9
+3*(4+6)
+
+Exp -> ...

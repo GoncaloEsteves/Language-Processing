@@ -1,0 +1,42 @@
+-Para casa:
+Strings binárias - decimal correspondente tem que ser impar;
+	-> (0|1)*1$
+Strings binárias - cujo valor decimal é divisível por 4;
+	-> (0|1)*00$
+
+.c
+|
+| compilação (gcc -c)
+|
+\/
+.o
+|
+|"Linkagem"
+|
+\/
+binário executável
+
+Modulos em C:
+
+	-lligadas.h (interface) - Estruturas de dados declaradas e assinaturas das funções
+	-lligadas.c (implementação) - #include "lligadas.h" seguido da implementação das funções
+
+Ficheiros em Flex:
+
+%{                      ]               flex Prog.l
+#include <stdio.h>      ]                    |
+#include "lligadas.h"	]                    | lex.yy.c
+%}                      ]                    \/
+%%                      ]               gcc -c lex.yy.c
+...                     ] Prog.l ===>        |
+%%                      ]                    |
+int Fim(){              ]                    |
+	LLigada *l;         ]                    \/
+	showLista(l);       ]               gcc -o Prog.exe lex.yy.o lligadas.o -ll
+}                       ]
+
+Ficha 2
+
+- Exercicio 12:
+
+(\.|_)[0-9]+[a-zA-Z]{3,}(_|[a-zA-z])$

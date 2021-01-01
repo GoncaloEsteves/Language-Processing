@@ -1,0 +1,10 @@
+Lista -> '['']'
+	   | '['Elems']'
+
+Elems -> Elem
+	   | Elem',' Elems
+
+Elem  -> num
+	   | Intervalo
+
+Intervalo -> num DOISPONTOS num

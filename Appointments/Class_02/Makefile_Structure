@@ -1,0 +1,5 @@
+identificador.exe: lex.yy.c
+(tab)gcc -o identificador.exe lex.yy.c -ll
+
+lex.yy.c: ficheiro.l
+(tab)flex ficheiro.l
